@@ -2,6 +2,7 @@
 #include <sys/socket.h>
 #include <sys/un.h>
 #include <stdlib.h>
+#include <unistd.h> // don't be silly add this header
 
 //char *socket_path = "./socket";
 char *socket_path = "\0hidden";
